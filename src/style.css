@@ -1,0 +1,25 @@
+
+body{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36d3c1;
+    display: flex;
+}
+
+#Dona{
+    height:550px;
+    width:700px;
+    background-image: url(img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+#Paga{
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    background-color: #36d3c1;
+    display:none
+}

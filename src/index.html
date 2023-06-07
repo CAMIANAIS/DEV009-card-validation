@@ -35,9 +35,15 @@
     
         <p>Haremos juntos la validación de tu tarjeta</p>
     
-    
+      <div id ="tarjetaid">
         <p>Coloca aqui tu numero de tarjeta</p>
-        
+        <form>
+          <label for="tarjeta">Número de tarjeta:</label>
+          <input type="text" id="tarjeta" oninput="validator()">
+          <input type="submit" value="Enviar">
+          <button type="reset">Limpiar</button>
+        </form>
+      </div>
     
   </div>
     <footer></footer>

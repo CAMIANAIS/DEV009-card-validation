@@ -1,18 +1,14 @@
 const validator = {
   // ...
 
-isValid :(NumerodeTarjeta)
-let LuhnSum=0
+  isValid:function(CardNumber){
+    let reverseNumber=CardNumber.split('').reverse();
 
-  NumerodeTarjeta = NumerodeTarjeta.replace(" ","")
   
-  if (isValid(NumerodeTarjeta)){
-    console.log("Numero de Tarjeta Valida")
-    else
-    console.log("Numero de Tarjeta Invalida")
-  }
+    return reverseNumber
 
-  validator.maskify(creditCardNumber): creditCardNumber
-};
+  }
+  
+}
 
 export default validator;

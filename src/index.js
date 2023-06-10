@@ -8,6 +8,7 @@ const formulario = document.getElementById('formCard');
 formulario.addEventListener("submit",function(e){
   e.preventDefault();
   let valueCard=tarjeta.value;
+  tarjeta.value = validator.maskify(valueCard);
   console.log(valueCard)
   console.log(validator.isValid(valueCard))
   if (validator.isValid(valueCard)) {
@@ -18,10 +19,4 @@ formulario.addEventListener("submit",function(e){
   document.getElementById("validez").innerHTML = valueCard;
 })
 
-formulario.addEventListener("click", function(e){
-  e.preventDefault();
-  const valueCard = tarjeta.value;
-  console.log(validator.maskify(valueCard));
-
-})
 

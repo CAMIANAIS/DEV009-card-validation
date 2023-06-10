@@ -37,11 +37,12 @@
     
       <div id ="tarjetaid">
         <p>Coloca aqui tu numero de tarjeta</p>
-        <form>
+        <form id="formCard">
           <label for="tarjeta">Número de tarjeta:</label>
-          <input type="text" id="tarjeta" oninput="validator()">
+          <input type="number" id="tarjeta">
           <input type="submit" value="Enviar">
-          <button type="reset">Limpiar</button>
+          <button type="button" >Ocultar</button>
+          <div id="validez"></div>
         </form>
       </div>
     

@@ -9,7 +9,7 @@ const validator = {
 
   
   isValid:function(CardNumber){
-    
+
     const reverseNumber=CardNumber.split('').reverse();
     
     let sum=0;

@@ -6,6 +6,9 @@ body{
     align-items: center;
     background-color: #36d3c1;
     display: flex;
+    padding: 100px;
+    font-size: large;
+    font-family: 'Geologica', sans-serif;
 }
 
 #Dona{
@@ -14,13 +17,46 @@ body{
     background-image: url(img/portada.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-
+    padding: 80px;
+    align-items: center;
 }
 #Paga{
     height: 550px;
     justify-content: center;
     align-items: center;
     background-color: #36d3c1;
-    display:none
+    display:none;
+    font-size: large;
+    font-family: 'Geologica', sans-serif;
+
 }
 
+#formas{
+   width:288px;
+   height: 160px;
+   padding:160px;
+   background-image: url(img/cardpicture.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   align-items: center;
+   font-size: large;
+   font-family: 'Geologica', sans-serif;
+   border-radius: 10px;
+}
+
+#tarjeta{
+    padding-bottom: 20px;
+    font-size: large;
+    font-family: 'Geologica', sans-serif;
+    border-radius: 10px;
+    border: 2px solid#0a0a0a;
+
+}
+
+#Button1,#Button2{
+    font-size: 20px;
+    font-family: 'Geologica', sans-serif;
+    background-color: #36d3c1;
+    border-radius: 20px;
+    cursor: pointer;
+}

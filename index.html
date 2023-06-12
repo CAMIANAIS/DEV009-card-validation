@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@300;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <header></header>
+  <main></main>
+  <div id="Dona">
+    <h1>Campaña de abrigo </h1>
+    <h2>Muchos niños esperan</h2>
+    <button id="Button1" onclick="Continuar()"> QUIERO DONAR </button>
+    <script>
+      function Continuar() {
+      document.getElementById('Paga').style.display = 'block';
+      document.getElementById('Dona').style.display = 'none';
+      }
+    </script>
+  </div>
+  <div id="Paga">
+    
+      <h1>Bienvenid@</h1>
+      <div id="Nombreusuario"></div>
+      
+        <p>Haremos juntos la validación de tu tarjeta</p>
+    
+      <div id ="tarjetaid">
+        <p>Coloca aquí tu número de tarjeta</p>
+        <div id ="formas">
+         <form id="formCard">
+           <label for="tarjeta">Número de tarjeta:</label>
+           <input type="text" id="tarjeta">
+           <input id="Button2" type="submit" value="Validar">
+           <div id="validez"></div>
+         </form>
+        </div>
+      </div>
+    
+  </div>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

@@ -13,7 +13,7 @@ formulario.addEventListener("submit",function(e){
     valueCard = "Tarjeta de Crédito Válida";
   } 
   else if(valueCard.trim() === ""){
-    valueCard="Ingresa n[umero de tarjeta valida";
+    valueCard="Ingresa número de tarjeta valida";
   }
   else {
     valueCard = "Tarjeta de Crédito Inválida";

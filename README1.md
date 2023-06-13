@@ -18,11 +18,11 @@ Se adjunta un mapa de empatía donde se visualiza que los usuarios objetivo.
 
  ![gráfica de mapa de empatia](src/img/MapaEmpatia.png)
 
-## 2.1Cómo el producto soluciona los problemas/necesidades de dichos usuarios. 
+## 2.1 Cómo el producto soluciona los problemas/necesidades de dichos usuarios. 
 
 El producto permite la recaudación mediante un proceso sencillo, que incluye la validación de la tarjeta y el enmascaramiento de los dígitos. 
 # 3.Flujo de trabajo 
-## 3.1 Early prototype 
+## 3.1 Prototitpo de baja fidelidad 
 ![grafica prototipo baja fidelidad](src/img/earlyprototype.png)
 
 ## 3.2 Estructuracion de CSS y HTML.
@@ -36,15 +36,17 @@ Se estructuro siguiendo los css selectors,box model.
 * En el proceso se vio el uso de condicionales,uso de bucles, pruebas unitarias.
 ## 3.4 Prototipo de alta fidelidad 
 
-Se trabajo en un prototipo de alta fidelidad que incluia imagenes, display:flex, manipulación de eventos del DOM.
+Se trabajo en un prototipo de alta fidelidad que incluia imagenes.
 ![grafica prototipo alta fidelidad](src/img/AFprototype1.jpg)
 ![grafica prototipo alta fidelidad 2](src/img/AFprototype2.png)
 
-## 3.5 Elaboración del read.me
+## 3.5 Estructuración de la página acorde al prototipo de alta fidelidad
+Se hizo uso de diferente enlemento en css display:flex, y en Java Script para manipulación de eventos del DOM.Para que el website tenga mejor distribución.
+## 3.6 Elaboración del read.me
 Explicar la información necesaria para el uso de tu aplicación web, así como una introducción a la aplicación, su funcionalidad y decisiones de diseño que tomaron.
 
 # 4. Explicación de website
-El usuario al ingresar ve un pagina informativa , donde se explica a que será destinada las donaciones , asi como los aliados que le da credibilidad al recaudo; posteriormente al dar click en el botón de "Quiero donar", se le envia a una pagina de pasarela de pagos, donde se hace la validación de los datos de su tarjeta cuando el usuario coloque sus datos.
+El usuario al ingresar ve un pagina informativa , donde se explica a que será destinada las donaciones , asi como los aliados que le da credibilidad al recaudo; posteriormente al dar click en el botón de "Quiero donar", se le envia a una pagina de pasarela de pagos, donde se hace la validación de los datos de su tarjeta cuando el usuario coloque sus datos.Al colocar espacio en blanco le pide que coloque una tarjeta de credito valida. 
 
 
  

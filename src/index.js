@@ -9,8 +9,6 @@ formulario.addEventListener("submit",function(e){
   e.preventDefault();
   let valueCard=tarjeta.value;
   tarjeta.value = validator.maskify(valueCard);
-  console.log(valueCard)
-  console.log(validator.isValid(valueCard))
   if (validator.isValid(valueCard)) {
     valueCard = "Tarjeta de Crédito Válida";
   } else {
@@ -19,4 +17,7 @@ formulario.addEventListener("submit",function(e){
   document.getElementById("validez").innerHTML = valueCard;
 })
 
-
+const btnLimpiar = document.getElementById("btnLimpiar");
+btnLimpiar.addEventListener("click", function() {
+  document.getElementById("formCard").reset();
+});

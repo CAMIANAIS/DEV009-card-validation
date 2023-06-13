@@ -12,35 +12,55 @@
   <header></header>
   <main></main>
   <div id="Dona">
-    <h1>Campaña de abrigo </h1>
-    <h2>Muchos niños esperan</h2>
-    <button id="Button1" onclick="Continuar()"> QUIERO DONAR </button>
-    <script>
-      function Continuar() {
-      document.getElementById('Paga').style.display = 'block';
-      document.getElementById('Dona').style.display = 'none';
-      }
-    </script>
+    <div id="Portada">
+      <h1>Campaña de abrigo </h1>
+      <h2>Muchos niños esperan</h2>
+      <button id="Button1" onclick="Continuar()"> QUIERO DONAR </button>
+      <script>
+        function Continuar() {
+        document.getElementById('Paga').style.display = 'block';
+        document.getElementById('Dona').style.display = 'none';
+        }
+      </script>
+    </div>
+    <div id="info">
+      <h3>Abriguemos juntos los corazones de niños en Ayaviri - Puno</h3>
+      <p>Nuestras donaciones serán destinados a la compra de frazadas, que abrigarán a 1000 niños</p>
+      <div id="Aliados">
+        <h2>Nuestros aliados</h2>
+        <div class="contenedor">
+          <img src="img/aliados.jpg">
+        </div>
+      </div>
+      <p>Copyright © 2023. Todos los derechos reservados</p>
+    </div>
   </div>
   <div id="Paga">
     
       <h1>Bienvenid@</h1>
       <div id="Nombreusuario"></div>
       
-        <p>Haremos juntos la validación de tu tarjeta</p>
+        <p>Bienvenido y gracias por tu generosidad.
+          Haremos juntos la validación de tu tarjeta</p>
     
       <div id ="tarjetaid">
-        <p>Coloca aquí tu número de tarjeta</p>
-        <div id ="formas">
+        <p>Coloca aquí los datos de tu tarjeta</p>
+        
          <form id="formCard">
-           <label for="tarjeta">Número de tarjeta:</label>
-           <input type="text" id="tarjeta">
+           <div id ="formas">
+            <label for="tarjeta">Número de tarjeta:</label>
+            <input type="text" id="tarjeta">
+            <div id="datosi"></div>
+              <label for="fechaex">Fecha de Expiración:</label>
+              <input type="text" id="fechaex">
+              <label for="cvv">CVV:</label>
+              <input type="text" id="cvv">
+           </div>           
            <input id="Button2" type="submit" value="Validar">
            <div id="validez"></div>
+           <button id="btnLimpiar">Limpiar</button>
          </form>
-        </div>
       </div>
-    
   </div>
     <footer></footer>
     <script src="index.js" type="module"></script>

@@ -1,50 +1,72 @@
 
 body{
-    height: 550px;
-    display: flex;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     background-color: #36d3c1;
-    display: flex;
-    padding: 100px;
     font-size: large;
     font-family: 'Geologica', sans-serif;
+    height:0%;
 }
 
-#Dona{
-    height:550px;
-    width:700px;
-    background-image: url(img/portada.jpg);
+#Portada{
+    background-image: url(img/portada1.jpg);
     background-repeat: no-repeat;
-    background-size:cover;
-    padding: 80px;
-    align-items: center;
+    background-size: contain;
+    position:static ;
+    height: 80vh;
+    padding-top: 20%;
+    color:#ffffff;
+    text-align: center;
+    font-size: xx-large;
 }
+
+#info{
+    text-align: center;
+}
+.contenedor {
+    position: relative;
+    height: 10vh; 
+  }
+  
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:contain; 
+  }
 #Paga{
     height: 550px;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #36d3c1;
-    display:none;
     font-size: large;
     font-family: 'Geologica', sans-serif;
+    padding: 3%;
+    display: none;
 
 }
 
 #formas{
-   width:288px;
-   height: 160px;
-   padding:160px;
+
    background-image: url(img/cardpicture.jpg);
    background-repeat: no-repeat;
+   background-position: center center;
    background-size: contain;
-   align-items: center;
-   font-size: large;
-   font-family: 'Geologica', sans-serif;
-   border-radius: 10px;
+   height: 35vh;
+   text-align: center;
+   padding:3%;
+
 }
 
-#tarjeta{
+
+  
+
+#tarjeta,#fechaex,#cvv{
     padding-bottom: 20px;
     font-size: large;
     font-family: 'Geologica', sans-serif;
@@ -53,10 +75,28 @@ body{
 
 }
 
+#datosi{
+    display:flex;
+    justify-content: space-between;
+    margin: 4%;
+
+}
 #Button1,#Button2{
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Geologica', sans-serif;
     background-color: #36d3c1;
     border-radius: 20px;
     cursor: pointer;
+
 }
+
+#Button2,#btnLimpiar{
+    font-size: large;
+    font-family: 'Geologica', sans-serif;
+    background-color: #3770e2;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2%;
+}
+
+

@@ -57,7 +57,7 @@ body{
    background-repeat: no-repeat;
    background-position: center center;
    background-size: contain;
-   height: 35vh;
+   height: 45vh;
    text-align: center;
    padding:3%;
 
@@ -68,7 +68,7 @@ body{
 
 #tarjeta,#fechaex,#cvv{
     padding-bottom: 20px;
-    font-size: large;
+    font-size:medium;
     font-family: 'Geologica', sans-serif;
     border-radius: 10px;
     border: 2px solid#0a0a0a;
@@ -81,7 +81,7 @@ body{
     margin: 4%;
 
 }
-#Button1,#Button2{
+#Button1{
     font-size: 30px;
     font-family: 'Geologica', sans-serif;
     background-color: #36d3c1;

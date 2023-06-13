@@ -1,11 +1,10 @@
-# Card Validatiom
+# Card Validation
 
 # Indice
-* [1. Preámbulo](#-1.Definición-de-proyecto)
+* [1.Definición de proyecto.](#-1.Definición-de-proyecto)
 * [2.Los usuarios y los objetivos en relación con el producto.](#-2.Los-usuarios-y-los-objetivos-en-relación-con-el-producto.)
 * [3.Flujo de trabajo](#-3.Flujo-de-trabajo)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
+* [4.Explicación de website](#-4.Explicación-de-website)
 
 # 1.Definición de proyecto. 
 

@@ -11,7 +11,11 @@ formulario.addEventListener("submit",function(e){
   tarjeta.value = validator.maskify(valueCard);
   if (validator.isValid(valueCard)) {
     valueCard = "Tarjeta de Crédito Válida";
-  } else {
+  } 
+  else if(valueCard.trim() === ""){
+    valueCard="Ingresa n[umero de tarjeta valida";
+  }
+  else {
     valueCard = "Tarjeta de Crédito Inválida";
   }
   document.getElementById("validez").innerHTML = valueCard;
